@@ -25,3 +25,4 @@
 - [x] Restructure index to overview with three subpages
 - [x] Create plot types and downloads subpages
 - [x] Replace tutorial placeholders with screen recordings where available
+- [x] Inline downloads on the index page
