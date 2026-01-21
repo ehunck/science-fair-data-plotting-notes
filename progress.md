@@ -15,3 +15,4 @@
 - [x] Lay out good/bad examples side by side in tables
 - [x] Add Google Sheets screenshot placeholders
 - [x] Create GitHub Pages-ready HTML and CSS
+- [x] Reformat data types section for clarity on the web page
