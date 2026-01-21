@@ -16,3 +16,6 @@
 - [x] Add Google Sheets screenshot placeholders
 - [x] Create GitHub Pages-ready HTML and CSS
 - [x] Reformat data types section for clarity on the web page
+- [x] Convert graph checklist into interactive checkboxes
+- [x] Move mini practice into a separate Markdown handout
+- [x] Generate printable PDF handout
