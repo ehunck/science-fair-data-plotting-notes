@@ -24,3 +24,4 @@
 - [x] Split Google Sheets tutorials into separate pages
 - [x] Restructure index to overview with three subpages
 - [x] Create plot types and downloads subpages
+- [x] Replace tutorial placeholders with screen recordings where available
