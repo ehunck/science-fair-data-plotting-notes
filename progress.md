@@ -22,3 +22,5 @@
 - [x] Remove wrap-up from the web page and add handout download link
 - [x] Replace scatter plot placeholder with screen recording demo
 - [x] Split Google Sheets tutorials into separate pages
+- [x] Restructure index to overview with three subpages
+- [x] Create plot types and downloads subpages
