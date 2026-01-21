@@ -19,3 +19,4 @@
 - [x] Convert graph checklist into interactive checkboxes
 - [x] Move mini practice into a separate Markdown handout
 - [x] Generate printable PDF handout
+- [x] Remove wrap-up from the web page and add handout download link
