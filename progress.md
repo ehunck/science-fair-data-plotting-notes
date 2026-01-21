@@ -21,3 +21,4 @@
 - [x] Generate printable PDF handout
 - [x] Remove wrap-up from the web page and add handout download link
 - [x] Replace scatter plot placeholder with screen recording demo
+- [x] Split Google Sheets tutorials into separate pages
