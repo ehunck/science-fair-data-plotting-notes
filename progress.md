@@ -14,3 +14,4 @@
 - [x] Expand workbook explanations and Google Sheets steps
 - [x] Lay out good/bad examples side by side in tables
 - [x] Add Google Sheets screenshot placeholders
+- [x] Create GitHub Pages-ready HTML and CSS

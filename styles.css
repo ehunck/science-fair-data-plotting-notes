@@ -1,0 +1,278 @@
+:root {
+  color-scheme: light;
+  --bg: #f8f6f0;
+  --ink: #1f1b16;
+  --muted: #5f584f;
+  --accent: #1f6f8b;
+  --accent-2: #d97706;
+  --card: #ffffff;
+  --line: #e6e0d8;
+  --good: #166534;
+  --bad: #b91c1c;
+  --shadow: 0 12px 30px rgba(17, 12, 8, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Source Sans 3", "Helvetica Neue", sans-serif;
+  color: var(--ink);
+  background: radial-gradient(1200px 600px at 10% -10%, #efe6d8 0, transparent 55%),
+    radial-gradient(1200px 800px at 90% 10%, #e3f1ef 0, transparent 45%),
+    var(--bg);
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 12px;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Fraunces", "Times New Roman", serif;
+  margin: 0 0 0.6rem;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: clamp(2rem, 3vw + 1rem, 3.2rem);
+}
+
+h2 {
+  font-size: clamp(1.6rem, 2vw + 1rem, 2.4rem);
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-size: 1.05rem;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.hero {
+  padding: 60px 0 24px;
+  background: linear-gradient(120deg, rgba(31, 111, 139, 0.12), transparent 60%);
+  border-bottom: 1px solid var(--line);
+}
+
+.kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+.lead {
+  font-size: 1.1rem;
+  max-width: 640px;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.nav a {
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(31, 111, 139, 0.12);
+  color: var(--accent);
+  font-size: 0.9rem;
+}
+
+.section {
+  padding: 36px 0;
+  animation: fadeUp 0.6s ease both;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: var(--shadow);
+  margin: 20px 0;
+}
+
+.alt-card {
+  border-style: dashed;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.pair-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.example-card {
+  border-radius: 16px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  background: #faf7f2;
+}
+
+.example-card.good {
+  border-color: rgba(22, 101, 52, 0.4);
+}
+
+.example-card.bad {
+  border-color: rgba(185, 28, 28, 0.4);
+}
+
+.tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 4px 10px;
+  border-radius: 999px;
+  margin-bottom: 10px;
+}
+
+.example-card.good .tag {
+  background: rgba(22, 101, 52, 0.12);
+  color: var(--good);
+}
+
+.example-card.bad .tag {
+  background: rgba(185, 28, 28, 0.12);
+  color: var(--bad);
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin-top: 10px;
+}
+
+.rule {
+  background: rgba(217, 119, 6, 0.12);
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(217, 119, 6, 0.2);
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+}
+
+table th,
+table td {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--line);
+}
+
+table th {
+  background: #f3efe8;
+}
+
+.callout {
+  background: #fdf6e8;
+  border: 1px solid rgba(217, 119, 6, 0.2);
+  padding: 16px;
+  border-radius: 16px;
+  margin: 20px 0;
+}
+
+.steps {
+  padding-left: 20px;
+  margin: 12px 0 0;
+}
+
+.checklist {
+  columns: 2;
+  gap: 24px;
+}
+
+.sheets-shot {
+  margin-top: 16px;
+  border-top: 1px dashed var(--line);
+  padding-top: 12px;
+}
+
+.footer {
+  border-top: 1px solid var(--line);
+  padding: 30px 0 40px;
+  margin-top: 40px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 900px) {
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-2,
+  .pair-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .checklist {
+    columns: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
