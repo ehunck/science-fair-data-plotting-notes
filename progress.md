@@ -28,3 +28,4 @@
 - [x] Inline downloads on the index page
 - [x] Remove bad examples and checklist from plot types page
 - [x] Refresh multiple line graph tutorial and demo
+- [x] Simplify index quick links to plot types and Sheets tutorials
