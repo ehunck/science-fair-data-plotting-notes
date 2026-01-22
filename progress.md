@@ -27,3 +27,4 @@
 - [x] Replace tutorial placeholders with screen recordings where available
 - [x] Inline downloads on the index page
 - [x] Remove bad examples and checklist from plot types page
+- [x] Refresh multiple line graph tutorial and demo
